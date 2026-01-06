@@ -78,7 +78,7 @@ nav{
 
 nav .menu{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -125,7 +125,7 @@ nav .menu a{
 }
 
 
-#about{
+#about, #siklls, #resume{
     padding-top: 130px;
     
 }
@@ -153,9 +153,9 @@ nav .menu a{
 
 }
 
-#siklls{
+/* #siklls{
     padding-top: 130px;
-}
+} */
 
 #siklls .skills-content{
     width: 71%;
@@ -197,3 +197,48 @@ nav .menu a{
     line-height: 28px;
     margin-bottom: 30px;
 }
+
+#resume .resume-content{
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-content .section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card{
+    max-width: 511px;
+    margin-right: 30px;
+}
+
+.resume-card .card-title{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card .card-info{
+    font-size: 20px;
+    color: #737373;
+    margin-bottom: 10px;
+    
+}
+
+.resume-card .card-text{
+    font-size: 16px;
+    color: #909090;
+     line-height: 28px;
+}
+
+
+hr{
+    margin: 25px 0;
+}
+
+
