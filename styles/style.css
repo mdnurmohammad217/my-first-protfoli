@@ -126,7 +126,8 @@ nav .menu a{
 }
 
 #top-banner .banner-image img{
-    max-width: 585px;
+    width: 685px;
+    height: 680px;
     vertical-align: middle;
 }
 
