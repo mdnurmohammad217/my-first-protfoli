@@ -5,10 +5,14 @@
 }
 .poppins-thin {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: normal;
 }
 
+
+
 /* color comminication */
+
+
 .color-fit{
     color: rgb(255, 128, 0);
 }
@@ -23,6 +27,24 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+    margin-bottom: 30px;
+}
+
 
 /* main style */
 
@@ -45,7 +67,7 @@ header{
 
 nav{
     width: 71%;
-    max-width: 1144px;
+    max-width: 1140px;
     /* border: 2px solid red; */
     margin: 0px auto;
     display: flex;
@@ -98,4 +120,34 @@ nav .menu a{
 #top-banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+
+#about{
+    padding-top: 130px;
+    margin-bottom: 50px
+}
+
+#about .about-content{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 132px 128px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px #e9e9e9;
+}
+
+#about .about-content .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+    
+
 }
