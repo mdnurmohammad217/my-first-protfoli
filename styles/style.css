@@ -26,6 +26,12 @@
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #000;
+
 }
 
 .section-heading{
@@ -240,5 +246,12 @@ nav .menu a{
 hr{
     margin: 25px 0;
 }
+
+.bot{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
 
 
