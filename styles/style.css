@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.color-fit{
+    color: rgb(255, 128, 0);
+}
+
+.logo h2{
+    font-size: 45px;    
+}
+
+ul li{
+    list-style-type: none;
+}
+
+header{
+    background-color: rgb(255, 247, 235);
+    padding-top: 50px;
+}
+
+nav{
+    width: 70%;
+    max-width: 1144px;
+    border: 2px solid red;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
