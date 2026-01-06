@@ -8,9 +8,23 @@
   font-weight: 500;
 }
 
+/* color comminication */
 .color-fit{
     color: rgb(255, 128, 0);
 }
+
+.btn{
+    background-color:rgb(255, 128, 0) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* main style */
+
 
 .logo h2{
     font-size: 45px;    
@@ -22,13 +36,13 @@ ul li{
 
 header{
     background-color: rgb(255, 247, 235);
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 nav{
-    width: 70%;
+    width: 75%;
     max-width: 1144px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -38,5 +52,11 @@ nav .menu{
     display: flex;
     gap: 20px;
     align-items: center;
-
 }
+
+nav .menu a{
+    font-size: 20px;
+    color: black ;
+    text-decoration: none;
+}
+
